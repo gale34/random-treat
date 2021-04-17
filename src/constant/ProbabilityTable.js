@@ -44,6 +44,21 @@ export default pTable = {
             new RestaurantGrade("SSS", 0.08, sss_grade_restaurants)
         ]
     ),
+
+    gradePick = function (grade) {
+        let gradeProbArr = grade.restaurantGrades
+            .map(g => g.prob);
+        let gradeValueArr = grade.restaurantGrades
+            .map(g => g.restaurants);
+
+        return pick(gradeProbArr, gradeValueArr);
+    },
+    restaurantPick = function (restaurants) {
+        let restaurantProbArr = restaurants.map(r => r.prob);
+        let restaurantValueArr = restaurants.map(r => r.name);
+
+        return pick(gradeProbArr, gradeValueArr);
+    }
 }
 
 const b_grade_restaurants = [
@@ -116,4 +131,19 @@ function RestaurantGrade(name, prob, restaurants) {
 function Restaurant(name, prob) {
     this.name = name;
     this.prob = prob;
+}
+
+function pick(probArr, valueArr) {
+    let num = Math.random();
+    let s = 0;
+    let lastIndex = probArr.length - 1;
+
+    for (let i = 0; i < lastIndex; i++) {
+        s += probArr[i];
+        if (num < s) {
+            return valueArr[i];
+        }
+    }
+
+    return valueArr[lastIndex];
 }
