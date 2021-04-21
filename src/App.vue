@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Bronze/>
+    <slot-machine/>
   </div>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
-import Bronze from './components/Bronze.vue'
+//import Machine from './components/Machine.vue'
+import SlotMachine from './components/SlotMachine.vue'
 
 export default {
   name: 'App',
   components: {
-    //HelloWorld,
-    Bronze
+    //Machine,
+    SlotMachine
   }
 }
 </script>

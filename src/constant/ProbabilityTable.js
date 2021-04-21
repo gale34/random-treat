@@ -137,7 +137,7 @@ function Restaurant(idx, name, prob) {
     this.prob = prob;
 }
 
-function pick(probArr) { // eslint-disable-line no-unused-vars
+function pick(probArr) {
     let num = Math.random();
     let s = 0;
     let lastIndex = probArr.length - 1;
