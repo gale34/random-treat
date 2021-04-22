@@ -84,7 +84,8 @@
             temp.color = '#000000';
             return temp;
           })
-        this.startRestaurant()
+
+        setTimeout(() => this.startRestaurant(), 1000);
       },
       startRestaurant() {
         this.restaurantResult = pTable.restaurantPick(this.restaurantlist)
