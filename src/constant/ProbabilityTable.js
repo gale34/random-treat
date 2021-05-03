@@ -30,10 +30,11 @@ const s_grade_restaurants = [
 ];
 
 const ss_grade_restaurants = [
-    new Restaurant(1, "이치류 (서울 마포구 잔다리로3안길 44)", 0.25),
-    new Restaurant(2, "야스노야 (서울 용산구 후암로 8-1)", 0.25),
-    new Restaurant(3, "한우명가 (서울 서대문구 연희로 46-1)", 0.20),
-    new Restaurant(4, "아웃백", 0.30)
+    new Restaurant(1, "이치류 (서울 마포구 잔다리로3안길 44)", 0.20),
+    new Restaurant(2, "야스노야 (서울 용산구 후암로 8-1)", 0.20),
+    new Restaurant(3, "한우명가 (서울 서대문구 연희로 46-1)", 0.15),
+    new Restaurant(4, "이빠네마그릴스테이크 (서울 마포구 홍익로 7 지하 1층)", 0.25),
+    new Restaurant(5, "아웃백", 0.20)
 ];
 
 const sss_grade_restaurants = [
