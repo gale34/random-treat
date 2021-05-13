@@ -23,16 +23,15 @@ const a_grade_restaurants = [
 ];
 
 const s_grade_restaurants = [
-    new Restaurant(1, "오쓰세이로무시 (서울 송파구 백제고분로45길 30)", 0.1),
+    new Restaurant(1, "오쓰세이로무시 (서울 송파구 백제고분로45길 30)", 0.15),
     new Restaurant(2, "아그라 (서울 송파구 올림픽로 300 롯데백화점에비뉴엘월드타워점 6층)", 0.1),
     new Restaurant(3, "엘리스리틀이태리 (서울 송파구 백제고분로41길 43-21)", 0.1),
     new Restaurant(4, "고도식 (서울 송파구 백제고분로45길 28)", 0.1),
     new Restaurant(5, "차만다 (서울 송파구 오금로18길 6)", 0.1),
     new Restaurant(6, "일일양 (서울 송파구 송파대로49길 52 나인파크 A-107호)", 0.1),
-    new Restaurant(7, "송계옥 (서울 송파구 올림픽로32길 38 1층 103,104호)", 0.1),
+    new Restaurant(7, "송계옥 (서울 송파구 올림픽로32길 38 1층 103,104호)", 0.15),
     new Restaurant(8, "다케오호르몬데판야끼 (서울 송파구 백제고분로45길 8 1층)", 0.1),
     new Restaurant(9, "피자네버슬립스 (서울 송파구 백제고분로45길 6 지층)", 0.1),
-    new Restaurant(10, "글로리식당 (서울 송파구 백제고분로42길 4-13 102호)", 0.1),
 ];
 
 const ss_grade_restaurants = [
